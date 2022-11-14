@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: rgba(255, 238, 196, 0.89);
+}
+header a:hover {
+    color: red;
+}
+header fieldset {
+    border: 4px solid burlywood;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.underline {
+    text-decoration: underline;
+}
+header h1 {
+    text-align: center;
+}
+.bold {
+    font-weight: bold;
+}
+form fieldset {
+    background-color: beige;
+}
+form fieldset div  {
+    display: inline;
+}

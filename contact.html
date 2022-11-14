@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/contact.css">
+</head>
+<body>
+    <header>
+        <h1 class="underline">Contact Us</h1>
+        <nav>
+            <ul>
+                <a href="/index.html">About Me</a> |
+                <a href="/product.html">Secret Product </a>
+            </ul> 
+        </nav>
+    </header>
+    <main>
+        <p>Please reach out to us if there are any concerns</p>
+        <form method="get">
+            <fieldset>
+             <legend class="bold">Contact Form</legend>
+                <label for="firstname">FirstName:*</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Your First Name" required>
+                <br><br>
+                <label for="lastname">LastName:*</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Your Last Name" required>
+                <br><br>
+                <label for="email">Email Address:*</label>
+                <input type="email" for="email" name="email" required placeholder="your email adddress..." >
+                <br><br>
+                <label for="birthday">Date of Birth:</label>
+                <input type="date" id="birthday" name="birthday">
+                <br><br>
+                
+                <div class="inline">
+                    Reason for Contacting us:
+                    <input type="radio" id="bored" name="reason_for_contact" value= "bored" >
+                    <label for="bored">Bored</label>
+                    <input type="radio" id="grading" name="reason_for_contact" value="grading">
+                    <label for="grading">Grading</label>
+                    <input type="radio" name="other" id="other">
+                    <label for="other">Other (specify reason)</label> 
+                    <textarea name="other" id="other" cols="15" rows="1" placeholder="Other"></textarea>
+                    <p> <input type="submit" value="Submit"></p>  
+                </div>
+                 
+            </fieldset>
+    </main>
+</body>
+</html>
